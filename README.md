@@ -41,3 +41,15 @@ Certifique-se de que você tenha **Python 3.8 ou superior** instalado no sistema
 ```bash
 git clone https://github.com/jorgevalega/jogo-educativo.git
 cd jogo-educativo
+```
+
+**3. Crie e ative um ambiente virtual (recomendado)**
+
+```bash
+python -m venv venv
+source venv/bin/activate       # Linux/macOS
+venv\Scripts\activate          # Windows
+```
+
+
+
