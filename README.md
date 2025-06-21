@@ -50,6 +50,20 @@ python -m venv venv
 source venv/bin/activate       # Linux/macOS
 venv\Scripts\activate          # Windows
 ```
+**4. Instale as dependências**
 
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Como usar
+
+**1. Execute a aplicação localmente com:**
+
+```bash
+python app.py
+```
 
 
