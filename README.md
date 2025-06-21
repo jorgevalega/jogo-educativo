@@ -26,8 +26,8 @@
 
 ## 📸 Capturas de Tela
 
-![Jogo Educativo](assets/screenshot_01.jpg)
-![Medalha e parabéns](assets/screenshot_02.jpg)
+![Jogo Educativo](assets/jogo.jpg)
+![Medalha e parabéns](assets/parabens.jpg)
 
 ---
 
