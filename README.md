@@ -88,4 +88,16 @@ Todas as dependências necessárias estão listadas em [`requirements.txt`](requ
 
 ## 🧑‍💻 Autor
 
+Desenvolvido por [Jorge Valega](https://github.com/jorgevalega) – apaixonado por automação, acessibilidade e ferramentas de aprendizado de idiomas.
 
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+---
+
+## ☕ Apoie o projeto
+
+Se este jogo for útil para você ou sua família, deixe uma ⭐ no GitHub ou compartilhe com amigos e educadores!
