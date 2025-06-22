@@ -4,6 +4,14 @@
 
 ---
 
+## 🌐 Demonstração Online
+
+Você pode acessar e testar o jogo diretamente em:
+
+👉 [https://jogo.valega.dev](https://jogo.valega.dev)
+
+---
+
 ## 🌍 Idiomas Disponíveis
 
 - 🇧🇷 Português – *Você está aqui*
