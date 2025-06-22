@@ -77,6 +77,25 @@ Ao completar uma página, uma medalha aparece com som de parabéns e a aplicaç�
 
 ---
 
+## 📁 Estrutura de Pastas
+
+jogo-educativo/
+├── app.py
+├── requirements.txt
+├── static/
+│   └── audio/
+│       ├── A.mp3
+│       ├── 1.mp3
+│       └── parabens.mp3
+├── templates/
+│   └── index.html
+├── assets/
+│   ├── jogo.jpg
+│   └── parabens.jpg
+└── README.md
+
+---
+
 ## 🧾 Dependências
 
 - `flask` — Framework web leve e poderoso para Python
