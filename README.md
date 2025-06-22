@@ -66,4 +66,26 @@ pip install -r requirements.txt
 python app.py
 ```
 
+**2. Abra o navegador e acesse:**
+
+```bash
+http://localhost:5000
+```
+
+**3. Toque nas letras ou números para ouvir sua pronúncia.**
+Ao completar uma página, uma medalha aparece com som de parabéns e a aplicação avança automaticamente para a próxima página.
+
+---
+
+## 🧾 Dependências
+
+- `flask` — Framework web leve e poderoso para Python
+- `gtts` (opcional) — Utilizado para gerar os áudios em MP3 (Text-to-Speech do Google)
+
+Todas as dependências necessárias estão listadas em [`requirements.txt`](requirements.txt).
+
+---
+
+## 🧑‍💻 Autor
+
 
