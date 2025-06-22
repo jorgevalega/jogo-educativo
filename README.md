@@ -79,6 +79,7 @@ Ao completar uma página, uma medalha aparece com som de parabéns e a aplicaç�
 
 ## 📁 Estrutura de Pastas
 
+```bash
 jogo-educativo/
 ├── app.py
 ├── requirements.txt
@@ -93,6 +94,7 @@ jogo-educativo/
 │   ├── jogo.jpg
 │   └── parabens.jpg
 └── README.md
+```
 
 ---
 
