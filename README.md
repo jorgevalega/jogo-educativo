@@ -1,56 +1,55 @@
-# 🧠 Interactive Educational Game
+# 🧠 Jogo Educativo Interativo
 
-**Interactive Educational Game** is a lightweight and user-friendly web app built with **Python + Flask**, designed for children in the early stages of literacy. It presents letters and numbers with pronunciation in English, promoting fun and interactive learning through visuals and audio.
-
----
-
-## 🌐 Live Demo
-
-You can access and test the game directly at:
-
-👉 [https://game.valega.dev](https://game.valega.dev)
+**Jogo Educativo Interativo** é uma aplicação web leve e amigável desenvolvida com **Python + Flask**, voltada para crianças em fase de alfabetização. Ela apresenta letras e números com sons em português, incentivando o aprendizado de forma lúdica, auditiva e visual.
 
 ---
 
-## 🌍 Available Languages
+## 🌐 Demonstração Online
 
-- 🇧🇷 [Versão em Português](https://github.com/jorgevalega/jogo-educativo)
+Você pode acessar e testar o jogo diretamente em:
+
+👉 [https://jogo.valega.dev](https://jogo.valega.dev)
+
+---
+
+## 🌍 Idiomas Disponíveis
+
+- 🇧🇷 Português – *Você está aqui*
 - 🇪🇸 [Versión en Español](https://github.com/jorgevalega/juego-educativo)
-- 🇺🇸 English – *You are here*
+- 🇺🇸 [English Version](https://github.com/jorgevalega/educational-game)
 
 ---
 
-## 🚀 Features
+## 🚀 Funcionalidades
 
-- ✅ Display of **uppercase and lowercase letters**, grouped by pages
-- 🔢 Numbers from **0 to 100**, divided didactically (0–10, 11–20, ...)
-- 🔊 Audio playback for each letter and number
-- 🏅 Positive feedback with **medal and congratulations audio**
-- 📱 Responsive interface for mobile, tablet, and desktop
-- 🔄 Automatic page navigation (no buttons needed)
-- 🎉 Animated ending and option to restart
-
----
-
-## 📸 Screenshots
-
-![Educational Game](assets/screenshot_01.jpg)
-![Medal and congratulations](assets/screenshot_02.jpg)
+- ✅ Exibição de **letras maiúsculas e minúsculas**, agrupadas em páginas
+- 🔢 Contagem de **0 a 100**, separada de forma didática (0–10, 11–20, ...)
+- 🔊 Reprodução de áudio para cada letra e número
+- 🏅 Feedback positivo com **medalha e som de parabéns**
+- 📱 Interface responsiva para uso em celular, tablet ou desktop
+- 🔄 Navegação automática entre páginas (sem botões)
+- 🎉 Finalização com efeito visual e opção de reinício
 
 ---
 
-## 🛠️ Installation
+## 📸 Capturas de Tela
 
-**1. Requirements**  
-Make sure you have **Python 3.8 or higher** installed on your system.
+![Jogo Educativo](assets/jogo.jpg)
+![Medalha e parabéns](assets/parabens.jpg)
 
-**2. Clone the repository**
+---
+
+## 🛠️ Instalação
+
+**1. Pré-requisitos**  
+Certifique-se de que você tenha **Python 3.8 ou superior** instalado no sistema.
+
+**2. Clone o repositório**
 
 ```bash
-git clone https://github.com/jorgevalega/educational-game.git
-cd educational-game
+git clone https://github.com/jorgevalega/jogo-educativo.git
+cd jogo-educativo
 ```
-
 **3. Crie e ative um ambiente virtual (recomendado)**
 
 ```bash
