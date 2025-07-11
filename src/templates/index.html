@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo Educativo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+
+<body>
+    <h1>Aprenda Letras e Números</h1>
+    <div class="subtitulo">Página {{ pagina_atual }} de {{ paginas_total }} ({{ tipo }})</div>
+
+    <div class="grid" id="grid">
+        {% for item in grupo %}
+        <div class="item" onclick="tocar(this, '{{ item }}')">{{ item }}</div>
+        {% endfor %}
+    </div>
+
+    <div class="medalha" id="medalhaGanha">🏅 Parabéns!</div>
+
+    <audio id="audio" preload="auto"></audio>
+    <audio id="audioParabens" preload="auto" src="/static/audio/parabens.mp3"></audio>
+    <script>
+      var totalItens = Number("{{ grupo|length|default(0, true) }}");
+      var pagina = Number("{{ pagina|default(1, true) }}");
+      var total = Number("{{ total|default(1, true) }}");
+    </script>
+    <script src="/static/javascript/main.js"></script>
+</body>
+
+</html>

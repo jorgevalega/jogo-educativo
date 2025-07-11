@@ -70,7 +70,7 @@ pip install -r requirements.txt
 **1. Execute a aplicação localmente com:**
 
 ```bash
-python app.py
+python src/app.py
 ```
 
 **2. Abra o navegador e acesse:**
@@ -88,19 +88,32 @@ Ao completar uma página, uma medalha aparece com som de parabéns e a aplicaç�
 
 ```bash
 jogo-educativo/
-├── app.py
+├── env/
+├── LICENSE
+├── README.md
 ├── requirements.txt
-├── static/
-│   └── audio/
-│       ├── A.mp3
-│       ├── 1.mp3
-│       └── parabens.mp3
-├── templates/
-│   └── index.html
-├── assets/
-│   ├── jogo.jpg
-│   └── parabens.jpg
-└── README.md
+├── src/
+│   ├── app.py
+│   ├── assets/
+│   │   ├── jogo.jpg
+│   │   └── parabens.jpg
+│   ├── services/
+│   │   ├── page_service.py
+│   ├── setup.py
+│   ├── static/
+│   │   ├── audio/
+│   │   │   ├── 0.mp3
+│   │   │   ├── 1.mp3
+│   │   │   ├── ... (vários arquivos de áudio)
+│   │   │   └── Z.mp3
+│   │   │   └── parabens.mp3
+│   │   ├── css/
+│   │   │   └── styles.css
+│   │   └── javascript/
+│   │       └── main.js
+│   ├── templates/
+│   │   └── index.html
+│   └── utils/
 ```
 
 ---
