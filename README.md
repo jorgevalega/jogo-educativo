@@ -97,6 +97,8 @@ jogo-educativo/
 │   ├── assets/
 │   │   ├── jogo.jpg
 │   │   └── parabens.jpg
+│   ├── services/
+│   │   ├── page_service.py
 │   ├── setup.py
 │   ├── static/
 │   │   ├── audio/
